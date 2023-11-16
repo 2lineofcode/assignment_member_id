@@ -4,10 +4,12 @@ import '../models/topics_model.dart';
 
 class TopicRepository {
   /// GET ALL
-  Future<List<TopicModel>> getTopicList() async {
+  Future<List<TopicModel>> getTopicList({String? search = ''}) async {
     final query = await db
         .collection(topics)
         .orderBy('name')
+        .startAt([search])
+        .endAt(['$search\uf8ff'])
         .withConverter<TopicModel>(
           fromFirestore: (snapshot, options) => TopicModel.fromJson(snapshot.data()!),
           toFirestore: (value, options) => value.toJson(),
