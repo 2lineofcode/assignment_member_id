@@ -1,0 +1,25 @@
+[
+    {
+      "number": 1,
+      "timer": 30,
+      "topic": "Politic",
+      "question": "apa itu Migrasi?",
+      "media": "https://google.com/",
+      "correct": "a",
+      "options": [
+        {
+          "tilte": "Gak tau",
+          "is_correct": false
+        },
+        {
+          "tilte": "jangan tanya saya",
+          "is_correct": true
+        }
+      ],
+      "user_answer": {
+        "tilte": "jangan tanya saya",
+        "is_correct": true
+      }
+    }
+  ]
+  

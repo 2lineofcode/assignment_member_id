@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "813865623142",
+    "project_id": "adit-quiz",
+    "storage_bucket": "adit-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813865623142:android:3fb04ee7d70f93f40057a7",
+        "android_client_info": {
+          "package_name": "com.example.adit_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnjFw9WRtYI9nQYwrOuKMEfYDaO79_iwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
